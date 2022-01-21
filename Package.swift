@@ -7,7 +7,7 @@ let package = Package(
     name: "SPMDepsTest",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/bamx23/spm-deps-library-a.git", from: "1.0.0"),
+        .package(url: "https://github.com/bamx23/spm-deps-library-a.git", from: "1.1.0-rc.1"),
         .package(url: "https://github.com/bamx23/spm-deps-library-b.git", from: "10.0.0"),
     ],
     targets: [
